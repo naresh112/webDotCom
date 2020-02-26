@@ -10,9 +10,11 @@ public class PackagesPage extends WebDriverUtils implements PackagesPageProp {
 
 	public PackagesPage(WebDriver driver) {
 		super(driver);
-		this.driver=driver;
-		
-		
+		this.driver=driver;	
 	}
+	public void clickOnStarterPackage() {
+		click(STARTER_PACKAGE_LOCATOR);
+	}
+	
 
 }

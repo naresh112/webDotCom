@@ -12,8 +12,9 @@ public class LandingPage extends WebDriverUtils implements LandingPageProp  {
 		this.driver=driver;
 	}
 	public PackagesPage clickOnGetStarted() {
-		
+		click(GET_STARTED_LOCATOR);
 		return new PackagesPage(driver);
 	}
+	
 
 }
