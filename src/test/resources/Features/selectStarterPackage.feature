@@ -5,4 +5,5 @@ Feature: Select basic Starer package and add to cart
  When user enters url
  And user click on get starterd link
  And user select starter package and add it to cart
- 
+ And user enter his domain name
+ And user click on search button

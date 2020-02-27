@@ -12,8 +12,9 @@ public class PackagesPage extends WebDriverUtils implements PackagesPageProp {
 		super(driver);
 		this.driver=driver;	
 	}
-	public void clickOnStarterPackage() {
+	public ChooseYourDomainNamePage clickOnStarterPackage() {
 		click(STARTER_PACKAGE_LOCATOR);
+		return new ChooseYourDomainNamePage(driver);
 	}
 	
 

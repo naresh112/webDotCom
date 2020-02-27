@@ -9,7 +9,7 @@ public class PackagesPageStepDef {
 	}
 	@And("user select starter package and add it to cart")
 	public void user_select_starter_package_and_add_it_to_cart() {
-		steps.packagespage.clickOnStarterPackage();
+		steps.choosedomainnamepage=steps.packagespage.clickOnStarterPackage();
 	}
 
 }
